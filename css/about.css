@@ -1,0 +1,10 @@
+footer {
+    background-color: var(--bg-primary);
+}
+
+footer p {
+    color: var(--text-light);
+    text-align: center;
+    padding:var(--spacing-medium);
+    font-size: var(--fs-small);
+}
