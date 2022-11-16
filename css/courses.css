@@ -30,3 +30,98 @@ footer p {
     font-size: var(--fs-small);
 }
 
+.courses {
+    text-align: center;
+    padding: var(--spacing-large);
+}
+
+.courses h2 {
+    margin-bottom: var(--spacing-large);
+}
+
+.courses .container p {
+    margin-left: var(--spacing-small);
+    margin-right: var(--spacing-small);
+    padding-bottom: var(--spacing-large);
+}
+
+.courses .coursesContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.courses .course-wraper {
+    width: calc(100% / 3);
+    padding-left: var(--spacing-small);
+    padding-right: var(--spacing-small);
+
+}
+
+.courses .couse {
+    width: 100%;
+
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: var(--spacing-tiny);
+    margin-bottom: var(--spacing-medium);
+}
+
+.course-wraper .couse img {
+    width: 100%;
+    height: auto;
+    padding-bottom: var(--spacing-large);
+}
+
+.course-wraper .content h3 {
+    text-align: start;
+    padding-left: var(--spacing-small);
+    color: var(--text-primary);
+    font-size: 1.5rem;
+    padding-bottom:var(--spacing-medium);
+}
+
+.certification {
+    display: flex;
+    color: grey;
+   
+}
+
+.course-wraper .certification img {
+    width: 25%;
+    margin-left: var(--spacing-small);
+}
+
+.coursesContainer .content .certification {
+    padding-bottom: var(--spacing-tiny);
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    font-size: var(--fs-medium);
+    width: 100px;
+    background-color: var(--button-color);
+    padding: var(--spacing-small);
+    display: block;
+    margin-left: var(--spacing-tiny);
+    margin-top: var(--spacing-medium);
+    margin-bottom:var(--spacing-medium);
+}
+
+button a {
+    color: var(--text-light);
+}
+
+.details {
+    display: flex;
+}
+
+.details span {
+    margin-left: var(--spacing-small);
+    color: grey;
+    font-size: var(--fs-small);
+}
+
+.details span i {
+    transform: translateY(7px);
+}
