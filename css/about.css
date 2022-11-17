@@ -1,3 +1,7 @@
+nav {
+    z-index: 2;
+}
+
 footer {
     background-color: var(--bg-primary);
 }
@@ -7,4 +11,81 @@ footer p {
     text-align: center;
     padding:var(--spacing-medium);
     font-size: var(--fs-small);
+}
+
+.welcome {
+    background-color: var(--bg-primary);
+    width: 100%;
+    height: 50vh;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+        
+}
+
+.trainers .traners-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: calc(2*var(--spacing-xl));
+}
+
+
+.trainers .traners-container .trainer-wrapper {
+    width: 25%;
+    padding-left: var(--spacing-small);
+    padding-right: var(--spacing-small);
+    padding-top: var(--spacing-xl);
+}
+
+.trainers .traners-container .trainer {
+    width: 100%;
+
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: var(--spacing-tiny);
+    margin-bottom: var(--spacing-medium);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 335px;
+}
+
+
+.trainer .image-wrapper {
+
+text-align: center;
+margin-top: -70px;
+ width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    
+}
+
+.trainer .image-wrapper  img {
+    width: 100%;
+    height: auto;
+    filter: grayscale(100%);
+}
+
+ p {
+    text-align: justify;
+    margin-left: var(--spacing-tiny);
+    margin-right: var(--spacing-tiny);
+}
+
+h2 {
+    color: var(--text-secondary);
+    font-size: var(--fs-medium);
+    font-weight: 400;
+    z-index: 1;
+    width: 100%;
+    text-align: center;
+    background-color:var(--text-primary) ;
+    border-radius: 5px;
+    padding: var(--spacing-tiny);
+    margin-top: -20px;
+    margin-bottom: var(--spacing-medium);
 }
